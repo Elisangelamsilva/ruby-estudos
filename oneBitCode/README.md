@@ -65,9 +65,11 @@ Instalação
     - Case: Parecido com if. Ele se enquadra muito bem na situações com diversas condições.
 
 - Interação
-    - For
-    - While
-    - Times
-    - Do/While
+Tipos de estruturas de controle que gerencia quantas vezes um trecho de código será executado.
+
+    - For: pecorrer uma coleção de elementos.
+    - While: INstrução que repete um bloco enquanto a condição for verdadeira.
+    - Times: Executa uma repetição por um determinado numeros de vezes.
+    - Do/While: Ele cria m laço de repetição que só é parado quando uma instrução breack for verdadeira.
 
 - Interação + Condicional
