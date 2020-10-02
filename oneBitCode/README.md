@@ -49,3 +49,4 @@ Instalação
     - Expoente(**)
 
  - Entrada/Saída:
+        Essas duas operações manipulam dados, com a diferença que a entrada ocorre qando o programa lê dados que podem ter sido recebidos de um teclado, de um arquivo, ou então de outro programa e a saída é um dado produzido pelo programa que pode ser exibido em uma tela, enviado para um arquivo ou então para outro programa.
