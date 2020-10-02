@@ -50,3 +50,24 @@ Instalação
 
  - Entrada/Saída:
         Essas duas operações manipulam dados, com a diferença que a entrada ocorre qando o programa lê dados que podem ter sido recebidos de um teclado, de um arquivo, ou então de outro programa e a saída é um dado produzido pelo programa que pode ser exibido em uma tela, enviado para um arquivo ou então para outro programa.
+
+## Aula 03
+
+- Estrutura de controle
+    Tratam-se de códigos que escrevemos em nossos programas para analisar dados e decidir qual caminho seguir. Divide-se em dois tipos: Condicional e Interação.
+
+- Condicional
+    Tipos de estruturas de controle que executa um trecho de código dependendo do resultado de uma condição. 
+    - If: verifica se a condição é verdadeira
+    - Else: associado ao if, quando o if dá falso o else é         executado.
+    - Elsif: if com a condição falsa o elsif é procurado antes do else, sendo verdadeiro sua condição será executada caso não o else será executado.
+    - Unless: É executado apenas quando a condição é falsa.
+    - Case: Parecido com if. Ele se enquadra muito bem na situações com diversas condições.
+
+- Interação
+    - For
+    - While
+    - Times
+    - Do/While
+
+- Interação + Condicional
