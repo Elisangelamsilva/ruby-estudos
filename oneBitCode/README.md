@@ -41,7 +41,7 @@ Instalação
             Não é necessario definir o tipo de dado antes de atribuir um valor à uma variável. O tipo é dinamico, ou seja, ele é definido de acordo com o dado atribuído.
 
  - Operadores matemáticos
-    - Adição(+)
+    -- Adição(+)
     - Subtração(-)
     - Divisão(/)
     - Modulo(%)
