@@ -36,15 +36,16 @@ Instalação
 
         Hash:
             Tipo que representa uma coleção de dados organizados por chaves únicas e seus resspectivos valores. Enquanto arrays são definidos com colchetes, hashes são definidos com chaves '{}' 
-            
+
         Tipagem dinâmica:
             Não é necessario definir o tipo de dado antes de atribuir um valor à uma variável. O tipo é dinamico, ou seja, ele é definido de acordo com o dado atribuído.
 
  - Operadores matemáticos
-    + Adição 
-    - subtração
-    / divisão
-    % modulo
-    *multiplicação
-    ** expoente
+    Adição(+)
+    Subtração(-)
+    Divisão(/)
+    Modulo(%)
+    Multiplicação(*)
+    Expoente(**)
+    
  - Entrada/Saída:
