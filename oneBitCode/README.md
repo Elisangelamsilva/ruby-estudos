@@ -73,3 +73,19 @@ Tipos de estruturas de controle que gerencia quantas vezes um trecho de código 
     - Do/While: Ele cria m laço de repetição que só é parado quando uma instrução breack for verdadeira.
 
 - Interação + Condicional
+
+## Aula 04
+
+- Collections 
+    Em programação representa um conjunto de dados semelhantes de uma única unidade. 
+
+- Iterações em collections
+  
+  - Easch:
+  Percorre uma coleção de forma parecida ao for, porém, não sobrescrevendo o valor de variavel fora de estruturas de repetição.
+
+  - Map:
+  Cria um array baseando-se em valores de outro array existente (.map) o .map! substitui os valores do qe gerar um novo array.
+  
+  - Select:
+  Realiza uma seleção de elementos presentes em uma collection atraves de uuma condição pré definida. Traz como resultado somente valores que passam pela condição.
