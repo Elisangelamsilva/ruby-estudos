@@ -89,3 +89,22 @@ Tipos de estruturas de controle que gerencia quantas vezes um trecho de código 
   
   - Select:
   Realiza uma seleção de elementos presentes em uma collection atraves de uuma condição pré definida. Traz como resultado somente valores que passam pela condição.
+
+  ## Aula 5
+
+  - Métodos são uma forma de organizar instruções em um programa, ou seja, um conjunto de código qe pode ser reutilizável.
+
+  def nomeQuevcQuer (paramentro)
+    intrução
+  end
+
+  hello 'intrução' 
+  o método precisa ser chamado pois ele está encapsulado, ele vai aparecer qunatas vezes vc chamar.
+  Se declarar 2 paramentros e na hora de chamar não passar os dois, acontecerá um erro. ~ mais para frente será estudado como fazer nesses casos ~.
+
+  - Gem é um pacote que oferece funcionalidades a fim de resolver uma necessidade específica de um programa Ruby. Pense como o conceito de biblioteca em outras linguagens de programação.
+
+  - bundler agrega várias gem em um arquivo e instalas quando requisitadas. 
+  1. gem install bundle
+  2. salvar um arquivo, por exemplo esse [aqui](project_aula05/Gemfile), onde vc vai adicionar de onde vem as bibliotecas e quais seram instaladas.
+  3. abrir o arquivo no terminal e rodar a palavra bundle
