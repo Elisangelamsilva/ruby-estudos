@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+#as gems que quero instalar
+gem 'os'
+gem 'rake'
