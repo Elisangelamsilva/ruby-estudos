@@ -9,16 +9,16 @@ loop do
     puts '4- Multiplicação'
     puts '5- SAIR'
 
-    select_ption = gets.chomp.to_i
+    select_option = gets.chomp.to_i
 
-    break if select_ption == 5
+    break if select_option == 5
 
     puts 'Digite o primeiro número: '
     primeiro = gets.chomp.to_i
     puts 'Digite o segundo número: '
     segundo = gets.chomp.to_i
 
-    case select_ption
+    case select_option
     when 1
         calculo = primeiro + segundo
         puts "O resultado da soma é #{calculo}"
