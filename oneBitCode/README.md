@@ -119,11 +119,11 @@ Tipos de estruturas de controle que gerencia quantas vezes um trecho de código 
 
     - Pilares
 
-        -Abstração
+        - Abstração
 
              Ação de abstrair uma entidade do mundo real e transformá-la em uma classe.
 
-        -Encapsulamento
+        - Encapsulamento
 
             Ato de dividir um programa em diversas partes tornando-o flexível, fácil de modificar e incluir novas funcionalidades.
 
