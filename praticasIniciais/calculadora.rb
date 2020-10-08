@@ -1,8 +1,7 @@
-puts 'Calculadora'
-result = ''
+puts "Calculadora"
 
-1.times do
-    puts result
+loop do 
+
     puts 'Selecione uma das seguintes opções: '
     puts '1- Adição'
     puts '2- Subtração'
@@ -10,28 +9,29 @@ result = ''
     puts '4- Multiplicação'
     puts '5- SAIR'
 
-    option = gets.chomp.to_i
+    select_option = gets.chomp.to_i
+
+    break if select_option == 5
 
     puts 'Digite o primeiro número: '
     primeiro = gets.chomp.to_i
     puts 'Digite o segundo número: '
     segundo = gets.chomp.to_i
 
-    if option == 1
+    case select_option
+    when 1
         calculo = primeiro + segundo
         puts "O resultado da soma é #{calculo}"
-    elsif option == 2
+    when 2
         calculo = primeiro - segundo
         puts "O resultado da subtração é #{calculo}"
-    elsif option == 3
+    when 3
         calculo = primeiro / segundo
         puts "O resultado da divisão é #{calculo}"
-    elsif option == 4
+    when 4
         calculo = primeiro * segundo
         puts "O resultado da multiplicação é #{calculo}"
-    elsif option == 5
-        break
-    else
-        puts 'Opção inválida'
+    else 
+        puts "Opção Inválida"
     end
 end
