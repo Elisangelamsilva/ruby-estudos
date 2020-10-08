@@ -115,25 +115,25 @@ Tipos de estruturas de controle que gerencia quantas vezes um trecho de código 
 
 1. O que é? O que classifica?
 
-        É um paradgma de programação criado para lidar com software grandes e complexos. É um conceito seguido não só pelo Ruby, mas também por várias otras lingagens de programação.
+    É um paradgma de programação criado para lidar com software grandes e complexos. É um conceito seguido não só pelo Ruby, mas também por várias otras lingagens de programação.
 
-        - Pilares
+    - Pilares
 
-            -Abstração
+        -Abstração
 
-                Ação de abstrair uma entidade do mundo real e transformá-la em uma classe.
+             Ação de abstrair uma entidade do mundo real e transformá-la em uma classe.
 
-            -Encapsulamento
+        -Encapsulamento
 
-                Ato de dividir um programa em diversas partes tornando-o flexível, fácil de modificar e incluir novas funcionalidades.
+            Ato de dividir um programa em diversas partes tornando-o flexível, fácil de modificar e incluir novas funcionalidades.
 
-            - Herança
+        - Herança
 
-                Habilidade de criar uma Classe com características de outra existente. A herença promove o reuso e reaproveitamento de código.
+            Habilidade de criar uma Classe com características de outra existente. A herença promove o reuso e reaproveitamento de código.
 
-            - Poliformismo
+        - Poliformismo
 
-                Capacidade de utilizar um método de diferentes formas para diferentes Objetos.
+            Capacidade de utilizar um método de diferentes formas para diferentes Objetos.
 
 2. Classe?
 
