@@ -108,3 +108,26 @@ Tipos de estruturas de controle que gerencia quantas vezes um trecho de código 
   1. gem install bundle
   2. salvar um arquivo, por exemplo esse [aqui](project_aula05/Gemfile), onde vc vai adicionar de onde vem as bibliotecas e quais seram instaladas.
   3. abrir o arquivo no terminal e rodar a palavra bundle
+
+## Aula 06
+
+- PROGRAMAÇÃO PRIENTADA A OBJETO 1
+
+1. O que é? O que classifica?
+        É um paradgma de programação criado para lidar com software grandes e complesxos. É m conceito seguido não só pelo Ruby, mas também por várias otras lingagens de programação.
+        - Pilares
+            -Abstração 
+                Ação de abstrair uma entidade do mundo real e transformá-la em uma classe.
+            -Encapsulamento
+                Ato de dividir um programa em diversas partes tornando-o flexível, fácil de modificar e incluir novas funcionalidades.
+            - Herança
+                Habilidade de criar uma Classe com características de outra existente. A herença promove o reuso e reaproveitamento de código.
+            - Poliformismo
+                Capacidade de utilizar um método de diferentes formas para diferentes Objetos.
+2. Classe?
+    É uma "planta" de como vai ser o objeto, quais propriedades, métodos....
+
+3. Objetos?
+    Representação de um objeto do mundo real, pode ser criado vários objetos com caracteristicas em comum, são elas informação e comportamentos.
+
+    Em POO chamamos as informações de attributes e os comportamentos de methods. 
