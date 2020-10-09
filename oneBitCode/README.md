@@ -144,3 +144,38 @@ Tipos de estruturas de controle que gerencia quantas vezes um trecho de código 
     Representação de um objeto do mundo real, pode ser criado vários objetos com caracteristicas em comum, são elas informação e comportamentos.
 
     Em POO chamamos as informações de attributes e os comportamentos de methods. 
+
+## Aula 07
+
+1. Require
+
+    Serve para carregar arqivos de uma gem ou outros programas criados externamentes e assim poder escrever códigos com fncionalidades desta biblioteca.
+
+    Para exemplificar como isso acontece você criará um projeto onde alguns arquivos irão conter apenas uma classe.
+
+    Quando rodo o require ele vai pesquisar o arqivo de arcodo com pasta que vc tá. Por isso usar o require_relative pois não leva em conta dá onde vc tá executando e sim o arquivo que vc ta exectando.
+
+2. Escopo das variáveis
+
+    O escopo define onde a variável vai estar disponível dentro do programa.
+
+    No ruby existem 4 tipos:
+
+        - Variável Local
+
+            É declarada com a primeira letra de seu nome sendo uma letra minuscula ou sublinhado. Pode ser acesssada apenas onde foi criada. Por exemplo dentro de uma classe, ela estara disponivel apenas ali dentro.
+
+        - Variável Global
+
+            Declarada com o prefixo $, seu uso é fortemente desencorajado pois além de ser visível em qualquer lugar do código, também pode ser alterada em inumeros locais ocasionando dificuldades no rastreamento de bugs.
+
+        - Variável de Classe
+
+            É declarada com o prefixo @@. Pode ser acessada em qualquer lugar da classe onde foi declarada e se valor é compartilhado entre todas as instâncias de sua classe. 
+
+        - Variável de Instancia 
+
+            Seu nome começa com o símbolo @. Semelhante a variavel de classe, tendo como única diferença o valor que não é compartilhado entre todas as instâncias de sua classe.
+
+3. Atributos 
+4. Construtores
