@@ -178,4 +178,9 @@ Tipos de estruturas de controle que gerencia quantas vezes um trecho de código 
             Seu nome começa com o símbolo @. Semelhante a variavel de classe, tendo como única diferença o valor que não é compartilhado entre todas as instâncias de sua classe.
 
 3. Atributos 
+
+    É um valor associado como uma instancia, são sempre privados e começam com @, eles só podem ser alterados pelos métodos de um objeto. 
+
 4. Construtores
+    Toda vez que a insancia de uma classe é criada, o Ruby procura por um método chamado initialize.
+    Você pode criar este método para especificar valores padrões durante a construção do objeto. 
