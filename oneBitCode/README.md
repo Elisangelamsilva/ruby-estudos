@@ -184,3 +184,17 @@ Tipos de estruturas de controle que gerencia quantas vezes um trecho de código 
 4. Construtores
     Toda vez que a insancia de uma classe é criada, o Ruby procura por um método chamado initialize.
     Você pode criar este método para especificar valores padrões durante a construção do objeto. 
+
+## Aula 08
+
+1. Blocks
+
+    Um bloco pode ser entendido como uma função anônima, ou seja, uma função sem nome. É defunido entre do..end ou colchetes e da mesma forma que os métodos que você viu até agora, pode receber parâmetros para sua execução.
+    
+2. Lambda
+
+    São similares aos blocks, mas podem ser salvas em variáveis para serem reutilizadas.
+    
+3. Modules
+    3.1 Namespace
+    3.2 Mixins
