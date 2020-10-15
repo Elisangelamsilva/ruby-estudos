@@ -107,6 +107,7 @@ Retorna um dois dois resultados.
 String também é um vetor por debaixo dos panos, o each percorer caractere por caractere caso seja acionado.
 
 * Arrays podem ser aninhados:
+
         v = [[15,62,73,48],[15,62,73,48],[15,62,73,48]]
 
 * Para usar o each para inteirar
