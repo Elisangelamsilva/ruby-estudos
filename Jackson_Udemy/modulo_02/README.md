@@ -92,3 +92,27 @@ Retorna um dois dois resultados.
 
     * While  
     * each - acessar cada elemento seja de uma array, hash...
+
+## Aula 15
+
+- Array / Vetores
+
+* Pode declarar/ usar de duas formas:
+
+        v = [15,62,73,48]
+        ou
+        v = Array.new é a mesma coisa de v = []
+        v.push(15)
+
+String também é um vetor por debaixo dos panos, o each percorer caractere por caractere caso seja acionado.
+
+* Arrays podem ser aninhados:
+        v = [[15,62,73,48],[15,62,73,48],[15,62,73,48]]
+
+* Para usar o each para inteirar
+
+        v.each do |externo|
+            externo.each do |interno|
+                puts interno
+            end
+        end 
