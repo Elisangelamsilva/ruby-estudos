@@ -34,3 +34,17 @@ pronto, entrou!
 
 ## Aula 11
 
+- Saída Padrão - STDOUT - É representada pela "tela".
+
+- No Ruby é utilizado o `puts` para imprimir algo na tela.
+
+- Entrada padrão - STDIN - é representad pelo teclado.
+
+- No ruby é utilizado o gets para "ler" algo do teclado.
+
+- \n - "new line" equivale ao Enter que é acionado, "quebrando uma linha". Para ele não vim presente é utilizando o `chomp`.
+
+- `chomp` remove o \n da string para ter algo mais limpo.
+    Exemplo: `variavel = gets.chomp`
+
+- Coerção - cast ou casting - É transforma um tipo em outro. Não modificamos a variavel, apenas "interpretamos" ele como um tipo que queremos. `to_i` para integer, `to_f` para float e `to_s` para strings.
