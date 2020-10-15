@@ -18,6 +18,8 @@ pronto, entrou!
 
 * Variáveis em Ruby são declaradas apenas "usando-a", ou seja, o ruby infere o tipo da variável no momento da "declaração". Para verificar o tipo da variável, use o método `.class`.
 
+O Ruby identifica o tipo das variáveis por inferência.
+
 - Tipagem dinâmica: ao declarar uma variável o seu tipo não é explicitado, ou seja, não é necessário escrever o tipo de determinada variável, pois a linguagem irá inferir o seu tipo. Mas isso não significa necessariamente dizer que a tipagem seja fraca;
 
 - versão 2.3
@@ -48,3 +50,19 @@ pronto, entrou!
     Exemplo: `variavel = gets.chomp`
 
 - Coerção - cast ou casting - É transforma um tipo em outro. Não modificamos a variavel, apenas "interpretamos" ele como um tipo que queremos. `to_i` para integer, `to_f` para float e `to_s` para strings.
+
+## Aula 12
+
+- Estrutura Condicionais 
+
+- if - se
+- unless - como se fosse o  "if negado", ou seja, if invertido, vindo o negativo primeiro. Lógica invertida.
+- case -  
+
+        `case  idade
+        x = 2
+        when 0..3
+            puts "bb"
+        else
+            puts "adulto"`
+        end
