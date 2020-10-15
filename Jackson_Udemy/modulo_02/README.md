@@ -78,3 +78,10 @@ Por exemplo:
         sexo == "M" ? (puts "Maculino") :(puts "Feminino"))
 
 Retorna um dois dois resultados.
+
+## Aula 13
+
+- Operadores Relacionais e Aritmétricos
+
+- >, >=, <, <=, ==, !=
+- +, -, *, /, **, %
