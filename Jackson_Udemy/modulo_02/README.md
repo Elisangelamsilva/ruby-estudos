@@ -26,6 +26,11 @@ pronto, entrou!
     * Bignum representa os números "inteiros gigantes"
 - versão 2.4+
 
-    *Integer representa todos os numeros inteiros.
+    * Integer representa todos os numeros inteiros.
+
+- mudar de versão:
+
+    * instalar: rvm use versão_desejada
+
 
 
