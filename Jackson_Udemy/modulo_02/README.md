@@ -75,7 +75,7 @@ Por exemplo:
 
         puts (sexo == "M" ? "Maculino" : "Feminino")
         ou
-        sexo == "M" ? (puts "Maculino") :(puts "Feminino"))
+        sexo == "M" ? (puts "Maculino") :(puts "Feminino")
 
 Retorna um dois dois resultados.
 
@@ -83,5 +83,12 @@ Retorna um dois dois resultados.
 
 - Operadores Relacionais e Aritmétricos
 
-- >, >=, <, <=, ==, !=
+- >>, >=, <, <=, ==, !=
 - +, -, *, /, **, %
+
+## Aula 14
+
+- Estruturas de Repetição
+
+    * While  
+    * each - acessar cada elemento seja de uma array, hash...
