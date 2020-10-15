@@ -30,7 +30,7 @@ pronto, entrou!
 
 - mudar de versão:
 
-    * instalar: rvm use versão_desejada
+    * instalar: `rvm use versão_desejada`
 
-
+## Aula 11
 
