@@ -53,16 +53,28 @@ O Ruby identifica o tipo das variáveis por inferência.
 
 ## Aula 12
 
-- Estrutura Condicionais 
+- Estruturas Condicionais 
 
 - if - se
 - unless - como se fosse o  "if negado", ou seja, if invertido, vindo o negativo primeiro. Lógica invertida.
 - case -  
 
-        `case  idade
+        case  idade
         x = 2
         when 0..3
             puts "bb"
         else
-            puts "adulto"`
+            puts "adulto"
         end
+
+- Estruturas Condicional ternária
+
+        <condição>?<verdadeiro>:<falso>
+
+Por exemplo: 
+
+        puts (sexo == "M" ? "Maculino" : "Feminino")
+        ou
+        sexo == "M" ? (puts "Maculino") :(puts "Feminino"))
+
+Retorna um dois dois resultados.
