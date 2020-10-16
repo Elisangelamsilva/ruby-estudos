@@ -125,7 +125,7 @@ String também é um vetor por debaixo dos panos, o each percorer caractere por 
 
     Pode ser criada de duas formas:
 
-        *Tradicional
+        * Tradicional
             h = {"x" => 15, "curso" => "rails}
 
         * 1.9+
@@ -135,3 +135,30 @@ String também é um vetor por debaixo dos panos, o each percorer caractere por 
     Para acessar os elementos, use os [ ]
 
             h["curso"]
+
+## Aula 17
+
+- Strings 
+    São determinadas por usar as aspas duplas ou simples.
+
+        x = "Maria"
+    
+        y = 'Silva'
+
+- Concatenação de strings, seja com o sinal de soma (+) ou <<. 
+
+A segunda opção joga um dos valores dentro da outra string. POr exemplo, temos a = tres e b = quatro, quando utiizamos `a << b`, mostra na tela o valor `tresquatro`, porém o conteúdo da string `a` sozinha será `tresquatro` pois recebeu o valor com a função <<. Modificando o `a`.
+
+A primeira opção gera um novo objeto, as vezes não é legal pq em arquivos com muita informação, a concatenação com + prejudica a performance do código, pois vai gerando novos objetos de acordo com a quantidade de concatenações.
+
+Em arquivos/trabalhos com muito trexos precisando de concatenação é interessante utilizar o <<.
+
+- Interpolação de Variáveis
+
+    * Usar a combinação #{ } para interpolar strings com variaveis ou código ruby.
+
+        x = "Maria"
+
+        puts "Se nome é #{x}"
+
+    * Apenas strings com string com as aspas duplas são interpolável.
