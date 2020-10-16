@@ -117,3 +117,16 @@ String também é um vetor por debaixo dos panos, o each percorer caractere por 
                 puts interno
             end
         end 
+
+## Aula 16 
+
+ - Hashes
+    Uma lista do tipo chave => valor, onde determinamos qual é a "chave" para acessar o valor, não existe sequencia como index.
+
+    Pode ser criada de duas formas:
+        *Tradicional
+            h = {"x" => 15, "curso" => "rails}
+        * 1.9+
+            h = {"x": 15, "curso": "rails}
+    Para acessar os elementos, use os []
+            h["curso"]
