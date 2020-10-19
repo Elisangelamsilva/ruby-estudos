@@ -162,3 +162,31 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
         puts "Se nome é #{x}"
 
     * Apenas strings com string com as aspas duplas são interpolável.
+
+## Aula 18
+
+- Símbolos / Symbols - são "strings imutáveis"
+
+    - Descobrir qual é o identificador dessa string utilizando o .object_id:
+
+            puts "Maria".object_id
+
+    - Caso seja repetido o mesmo código várias vezes, para cada string será um endereço diferente. 
+
+            puts "Maria".object_id
+
+            puts "Maria".object_id
+    
+    - Para usar o mesmo endereço na memoria com um identificador. Não é tratado como texto. Muito usado qando é necessario pois ele garante que seu uso não implicará na criação de novos objetos sempre usados.
+
+            puts :Maria.object_id
+
+    É muito utilizado em hash, só não é utiizado na nova notação. 
+
+        - Forma antiga:
+
+            h = { :crso => "Rails" }
+        
+        - Forma nova:
+
+        x { curso: "Rails" }
