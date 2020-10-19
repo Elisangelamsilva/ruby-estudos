@@ -189,4 +189,27 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
         
         - Forma nova:
 
-        x { curso: "Rails" }
+            x { curso: "Rails" }
+
+
+## Aula 19
+
+- Parênteses e Constantes
+
+    - Parênteses é opicional, ou em alguns casos para melhor leitura do código.
+
+            puts ("Curso em video")
+
+            pust "Curso em video"
+
+    - Constantes - são usadas para representar valores. Declaradas com letras maiúscula e vinculadas a um valor inicial que vai contuniar até o final do sistema.
+
+            NOME = "Maia"
+
+            PI = 3.14
+
+            puts PI
+            
+            puts NOME
+
+    Porém, caso seja definido um novo valor, o Ruby apenas avisará que foi inicializado como constante e tinha uma definição mudada para o novo valor. 
