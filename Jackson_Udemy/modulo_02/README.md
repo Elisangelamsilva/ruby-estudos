@@ -213,3 +213,25 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
             puts NOME
 
     Porém, caso seja definido um novo valor, o Ruby apenas avisará que foi inicializado como constante e tinha uma definição mudada para o novo valor. 
+
+    ## Aula 20
+
+    - Tipos Primitivos vs Complexos
+
+        - Tipos Primitivos - inteiros ( x=1 ), real/float ( y = 3.45 ), caracteres/strings ( z = 'abc'), lógico/booleano
+
+        - Tipos complexos - É construido a partir dos tipos primitivos. Sendo no Ruby as classes/objetos. 
+
+    ## Aula 21
+
+    - Classes vs Objetos
+
+    A classe seria uma "forma" de algo a ser criado, ou seja, um meio de informar como queremos que os objetos funcionem. O objeto é quando se dar vida a classe.
+
+    Ao criarmos uma classe podemos especificar os métodos e os atributos que os objetos possuirão.
+
+    Os métodos são as ações. E os atributos são as caracteristicas. 
+
+    Tudo em Ruby é objeto! Por isso é utilizado o método .class para saber de qual classe é o objeto que tá sendo usado.
+
+    As vantagem de tudo ser objeto no Ruby, é torna possivel utilizar automaticamente várias ações/métodos sem seus objetos.
