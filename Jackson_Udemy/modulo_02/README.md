@@ -264,3 +264,41 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
             end
 
         Cada vez que a classe seja inicializada, ele será executado por ser um método especial. Pode-se usar também parametros.
+
+## Aula 22
+
+    - Self, Variáveis de instância e Acessors
+
+        Self é o objeto instânciado.
+
+             class Pessoa
+
+                def falar
+
+                    "Olá pessoal"
+
+                end
+
+                def meu_id
+
+                    "Meu id é o #{self.object_id}"
+
+                    end
+
+             end
+
+        Variáveis de Instância são variaveis qe existem apenas na instancia do objeto (em todo objeto), ou seja, cada objeto possui seus próprios valores em tais variaveis.
+
+        Ad variaveis de instancia são procedidas de um @, fica disponivel utilizar em toda classe.
+
+        Accessors servem como atalhos para declaração de atributos de ma classe.
+
+                attr_accessor :nome
+
+        A simples declaração ascima te dá um "getter" e um "setter" para nome na classe em questão.
+
+                x = Pessoa.new
+
+                x.nome = "Maria"
+
+                
