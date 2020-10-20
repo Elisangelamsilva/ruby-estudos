@@ -246,3 +246,21 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
     Nomes compostos devem capitular o inicio de cada palavra. Ex: PessoaFisica
 
     O nome do arquivo não deve ser obrigatoriamente o nome classe.  
+
+## Aula 22
+
+    - Parâmetros e Initialize
+
+        Parâmetros é a forma de passar dados para dentro do método.
+
+            def falar(texto)
+                "Olá! #{texto}"
+            end
+
+        Initialize é um método especial que serve para indicar o que a classe deve fazer ao ser instanciada/inicializada.
+
+            def initialize
+                puts "Iniciando"
+            end
+
+        Cada vez que a classe seja inicializada, ele será executado por ser um método especial. Pode-se usar também parametros.
