@@ -330,3 +330,17 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
         Métodos de Instância são métodos que só podem ser invocados a partir de um objeto, ou seja, uma classe instanciada.
 
         Métodos de Classe são métodos que pedem ser executados a partir da própria classe, ou seja, não é necessário instanciar um objeto.
+
+## Aula 25
+
+    - Módulos e Mixins
+
+        Módulos são similares as classes, pois armazenam uma coleção de métodos, constantes e outras definições de módulos e classes.
+
+        Entretato, não se pode criar objetos baseados em módulos nem criar módulos que herdam desse módulo; ao invés disso, vc especifica qual funcionalidade de um módulo especifico vc deseja adicionar a uma classe ou a um objeto específico.
+
+        Permanecem sozinhos, não há hieraquia e é um bom lugar para armazenar constantes em um local contralizado. 
+
+        Agem como namespace, permitindo criar métodos com nomes diferentes.
+
+        mixes in utilizase para minsturar uma classe com módulo, tendo metodos de instancia do modulo se tornam disponiveis como se tivesse sido definidos na classe.
