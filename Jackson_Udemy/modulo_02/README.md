@@ -323,4 +323,10 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
 
                 end
 
+## Aula 24
+
+    - Métodos de Instância e de Classe 
         
+        Métodos de Instância são métodos que só podem ser invocados a partir de um objeto, ou seja, uma classe instanciada.
+
+        Métodos de Classe são métodos que pedem ser executados a partir da própria classe, ou seja, não é necessário instanciar um objeto.
