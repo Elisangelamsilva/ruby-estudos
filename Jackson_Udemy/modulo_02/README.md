@@ -301,4 +301,26 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
 
                 x.nome = "Maria"
 
-                
+## Aula 23
+
+    - Classes e Heranças
+
+        Representando uma classe visualmente, pode ser representado por UML.
+
+        Compartilhamento entre classes chamasse herança, ou seja, uma classe generica compartilha dados com outras classes, essas classes que recebe os dados, está herdando. Não é possivel hedar de várias classes ao mesmo tempo.
+
+        Com o operador "<", informamos de qual classe está herdando. Por exemplo:
+
+                class Pessoa
+
+                attr_accessor :nome
+
+                end
+
+                class Pessoa_fisica < Pessoa
+
+                attr_accessor :cpf
+
+                end
+
+        
