@@ -214,7 +214,7 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
 
     Porém, caso seja definido um novo valor, o Ruby apenas avisará que foi inicializado como constante e tinha uma definição mudada para o novo valor. 
 
-    ## Aula 20
+## Aula 20
 
     - Tipos Primitivos vs Complexos
 
@@ -235,3 +235,14 @@ Em arquivos/trabalhos com muito trexos precisando de concatenação é interessa
     Tudo em Ruby é objeto! Por isso é utilizado o método .class para saber de qual classe é o objeto que tá sendo usado.
 
     As vantagem de tudo ser objeto no Ruby, é torna possivel utilizar automaticamente várias ações/métodos sem seus objetos.
+
+
+## Aula 21
+
+    Uma classe instanciada é um objeto.
+
+    - A classe pode ser instanciada de duas formas, a primeira é por inferencia ( a = [61,72,73] ). A segunda forma é a declaração explícita ( b = Array.new / b.push(53) )
+
+    Nomes compostos devem capitular o inicio de cada palavra. Ex: PessoaFisica
+
+    O nome do arquivo não deve ser obrigatoriamente o nome classe.  
