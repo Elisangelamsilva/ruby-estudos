@@ -1,3 +1,0 @@
-require 'cpf_utils'
-
-gem 'cpf_utils'
