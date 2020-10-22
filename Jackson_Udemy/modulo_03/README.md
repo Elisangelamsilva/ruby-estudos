@@ -1,14 +1,14 @@
 ## Aula 33
 
-    - (Documentação Ruby)[https://www.ruby-lang.org/pt/documentation/]
+- [Documentação Ruby](https://www.ruby-lang.org/pt/documentation/)
 
-      - [Try Ruby!](https://try.ruby-lang.org/) [ ]
+- [Try Ruby!](https://try.ruby-lang.org/) [ ]
 
-      - [Ruby Koans](http://rubykoans.com/) [ ]
+- [Ruby Koans](http://rubykoans.com/) [ ]
 
-      - Documentação 
+- Documentação offline
       
-      - [DevDocs](https://devdocs.io/)
+- [DevDocs](https://devdocs.io/)
 
-      - Direto no prompt utilizando o $ ri
+- Direto no prompt utilizando o $ ri
       
