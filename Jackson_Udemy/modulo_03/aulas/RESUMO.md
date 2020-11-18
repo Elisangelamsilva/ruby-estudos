@@ -1,0 +1,19 @@
+40. Entendendo sobre migrations e ORM 
+
+[Active Record](https://guides.rubyonrails.org/active_record_basics.html) é o M do MVC. O model. É um framework responsável pela lógica de dados e negócio. 
+
+Existe o padrão Active Record, e qual seria a diferença? O framework implementa o padrão, ou seja, "pega" o padrão e cria um projeto de acordo. 
+
+Object-Relational Mapping - ORM - converte os objetos ou classes em algo que o banco de dados entenda. No caso do caso ruby o mapeamento é realizado através do active record.
+
+## Voltamos às migrations
+
+Migrations é uma caracteristica do active record (o framework) que permite "escrever/especificar" as tabelas do BD usando a linguagem ruby. Assim podendo modificar e remover tabelas do BD sem utilizar SQL.Tendo disponivel toda a sequencia envolvida no projeto.
+
+No db/shema.rb contém o controle de quais migration foram ou não aplicadas.
+
+O model fica no singular e com letra inicial maiúscula, os nomes das tabelas sera sempre no plural.
+
+Por conversao o rails coloca um campo chamado ID que é auto incremento, nao precisando identificar. 
+
+o timestamps identifica a data e hora da criaçã e modificação dos arquivos criados.
