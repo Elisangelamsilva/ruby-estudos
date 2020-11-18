@@ -17,3 +17,9 @@ O model fica no singular e com letra inicial maiúscula, os nomes das tabelas se
 Por conversao o rails coloca um campo chamado ID que é auto incremento, nao precisando identificar. 
 
 o timestamps identifica a data e hora da criaçã e modificação dos arquivos criados.
+
+41. Rails dbconsole, Rails Tasks e primeiros acessos 
+
+Rails dbconsole acessar e executar comandos dentro do banco de dados, serve para qualquer tipo de bd. O rails console é busca na aplicação.
+
+Rails Tasks tarefas predefinidas que o rails pode executar. $ rails -T para conhecer todas as tasks disponivel. Para filtrar é utilizar a palavra/letra depois do -T, por exemplo: $ rails -T db vai mostrar todas as tasks que inicia com db.
