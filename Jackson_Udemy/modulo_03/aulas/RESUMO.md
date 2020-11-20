@@ -27,3 +27,15 @@ Rails Tasks tarefas predefinidas que o rails pode executar. $ rails -T para conh
 42. Ambientes do Rails
 
   Por padrão existem 3 ambientes: Desenvolvimento, Teste e Produção. Essa ambiente possibilitam ter configurações isoladas para cada ambiente. A Gemfile é a forma mais simples de perceber isso.
+
+43. Fluxo MVC e "acesso padrão" aos controllers
+
+N a criação do scaffold, ganhamos model, views e controllers para o Coins.
+
+Model com o nome do projeto com inicial minusculo.
+
+O padrão do rails é que todo nome de controllers tenha _controller.rb, pega o nome do model no singular e colocou no plural. Criado atraves do scaffold ficará no plural. Dentro do controller temos algumas actions (que são métodos) e dentre elas uma chamada index (que é a action "padrão").
+
+Views é criado no plural.
+
+A rota padrão criada pelo scaffold é a rota com o nome do model pluralizada caí na index. @coins = Coin.all pega todo mundo que tá lá dentro e mostra, acction no metodo index (acction padrão).
