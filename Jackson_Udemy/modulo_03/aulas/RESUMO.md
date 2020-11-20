@@ -23,3 +23,7 @@ o timestamps identifica a data e hora da criaçã e modificação dos arquivos c
 Rails dbconsole acessar e executar comandos dentro do banco de dados, serve para qualquer tipo de bd. O rails console é busca na aplicação.
 
 Rails Tasks tarefas predefinidas que o rails pode executar. $ rails -T para conhecer todas as tasks disponivel. Para filtrar é utilizar a palavra/letra depois do -T, por exemplo: $ rails -T db vai mostrar todas as tasks que inicia com db.
+
+42. Ambientes do Rails
+
+  Por padrão existem 3 ambientes: Desenvolvimento, Teste e Produção. Essa ambiente possibilitam ter configurações isoladas para cada ambiente. A Gemfile é a forma mais simples de perceber isso.
