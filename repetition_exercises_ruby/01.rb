@@ -7,7 +7,10 @@ puts "Insira 5 valores:"
   valores_recebidos << a
 end
 
-valores_negativos  = -> (valor) {valor < 0}
-b =  valores_recebidos.grep(valores_negativos).inject(:+)
+b = valores_recebidos.select {|valor| valor < 0}.inject(:+)
+
+# valores_negativos  = -> (valor) {valor < 0}
+# b =  valores_recebidos.grep(valores_negativos).inject(:+)
 
 puts "A soma dos números negativos é #{b}"
+
